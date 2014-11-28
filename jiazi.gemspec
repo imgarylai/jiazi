@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Jiazi::VERSION
   spec.authors       = ["zxlai"]
   spec.email         = ["garylai1990@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Generate Chinese fake data.}
+  spec.description   = %q{Generate Chinese fake data.}
   spec.homepage      = "https://github.com/Jungllle/jiazi"
   spec.license       = "MIT"
 
