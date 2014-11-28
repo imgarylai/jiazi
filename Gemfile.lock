@@ -19,6 +19,9 @@ GEM
     docile (1.1.5)
     ffi (1.9.6)
     formatador (0.2.5)
+    fuubar (2.0.0)
+      rspec (~> 3.0)
+      ruby-progressbar (~> 1.4)
     guard (2.9.0)
       formatador (>= 0.2.4)
       listen (~> 2.7)
@@ -68,6 +71,7 @@ GEM
       rspec (>= 2.9)
       terminal-notifier (>= 1.4)
     rspec-support (3.1.2)
+    ruby-progressbar (1.7.0)
     simplecov (0.9.1)
       docile (~> 1.1.0)
       multi_json (~> 1.0)
@@ -88,6 +92,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.7)
   coveralls
+  fuubar
   guard
   guard-rspec
   jiazi!
