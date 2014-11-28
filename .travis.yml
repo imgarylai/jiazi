@@ -1,0 +1,16 @@
+language: ruby
+cache: bundler
+
+rvm:
+  - 2.1.0
+
+before_install:
+  - gem update --system
+  - gem --version
+
+notifications:
+  email:
+    recipients:
+      - garylai1990@gmail.com
+    on_failure: change
+    on_success: never
