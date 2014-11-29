@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jiazi (0.0.1)
+    jiazi (1.0.0)
 
 GEM
   remote: https://rubygems.org/
