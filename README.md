@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/Jungllle/jiazi.svg?branch=master)](https://travis-ci.org/Jungllle/jiazi)
+[![Coverage Status](https://coveralls.io/repos/Jungllle/jiazi/badge.png)](https://coveralls.io/r/Jungllle/jiazi)
+
 # Jiazi
 
 Generate Chinese fake data.
