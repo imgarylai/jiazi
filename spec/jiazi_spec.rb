@@ -2,12 +2,9 @@ require 'spec_helper'
 
 describe Jiazi do
   
-  it 'should get title' do
-    Jiazi.title
-  end
-
-  it 'should get paragraph' do
-    Jiazi.paragraph
+  it '#custom' do
+    expect(Jiazi.custom(1, 2, 1))
+      .to eq "max should be greater or equal to min."
   end
 
 end

@@ -4,23 +4,31 @@ require 'open-uri'
 require 'json'
 
 module Jiazi
-  
-  def self.title
-    self.fetch(1)
+
+  module_function
+
+  def custom(number = 1, min = 10, max = 20)
+    if max < min
+      "max should be greater or equal to min."
+    else
+      fetch(number, min, max)
+    end
   end
 
-  def self.paragraph
-    self.fetch(1, 400, 500)
+  def title
+    custom(1)
   end
 
-  def self.custom(number, min, max)
-    self.fetch(number, min, max)
+  def paragraph
+    custom(1, 400, 500)
   end
 
-  private
+  def fetch(number, min, max)
+    result JSON.load(open("http://more.handlino.com/sentences.json?n=#{number}&limit=#{min},#{max}"))
+  end
 
-  def self.fetch(number = 1, min = 10, max = 20)
-    JSON.load(open("http://more.handlino.com/sentences.json?n=#{number}&limit=#{min},#{max}"))
+  def result json
+    json["sentences"]
   end
 
 end
