@@ -32,6 +32,12 @@ Jiazi.custom 10, 30, 50 # Jiazi.custom sentences, mix, max
 # You will get 10 Chinese sentences which include 30 to 50 characters in an array. The default parameters are 1, 10 ,20.
 ```
 
+## Source
+
+```
+The source of this gem is from [MORETEXT](http://more.handlino.com/)
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/Jungllle/jiazi/fork )
