@@ -24,10 +24,10 @@ Or install it yourself as:
 ## Usage
 
 ```
-Jiazi.title
-# You will get a Chinese sentence which include 10 to 20 characters in an array.
-Jiazi.paragraph
-# You will get a Chinese sentence which include 400 to 500 characters in an array.
+Jiazi.get_title
+# You will get a Chinese sentence which include 10 to 20 characters.
+Jiazi.get_paragraph
+# You will get a Chinese sentence which include 400 to 500 characters.
 Jiazi.custom 10, 30, 50 # Jiazi.custom sentences, mix, max
 # You will get 10 Chinese sentences which include 30 to 50 characters in an array. The default parameters are 1, 10 ,20.
 ```
