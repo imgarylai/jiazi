@@ -5,6 +5,7 @@ gemspec
 
 gem 'rake'
 gem 'json'
+gem 'coveralls', require: false
 
 group :development do
   gem 'guard'
@@ -18,5 +19,4 @@ end
 group :test do
   gem 'rspec'
   gem 'rspec-nc'
-  gem 'coveralls'
 end

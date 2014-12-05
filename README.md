@@ -34,9 +34,7 @@ Jiazi.custom 10, 30, 50 # Jiazi.custom sentences, mix, max
 
 ## Source
 
-```
 The source of this gem is from [MORETEXT](http://more.handlino.com/)
-```
 
 ## Contributing
 
